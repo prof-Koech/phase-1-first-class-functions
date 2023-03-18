@@ -3,10 +3,10 @@ function receivesAFunction(myCallBack){
     
 
 }
-receivesAFunction("wow!! that's awesome!"),function (myCall){ "Hi" +myCall}
+receivesAFunction("wow!! that's awesome!"),function (myCallBack){ "Hi" +myCallBack}
 
 function returnsANamedFunction(){
-    return function myCase(){
+    return function myCWorld(){
         return "must be a great day!"
     }
 }
